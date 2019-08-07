@@ -1,4 +1,7 @@
-# vue-test
+Just for learning Vue/cli3
+![show.jpg](show.jpg)
+
+suppose you have node and npm(cnpm) evironment 
 
 ## Project setup
 ```
