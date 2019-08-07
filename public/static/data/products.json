@@ -1,21 +1,43 @@
-[{
+[
+{
 	"id": 1,
-	"name": "iPhone X",
-	"price": "6999",
-	"pic": "./static/img/products/iphonex.jpg"
+	"name": "小米9",
+	"price": "2599",
+	"pic": "./static/img/products/xiaomi9.jpg"
 }, {
 	"id": 2,
-	"name": "iPad Pro",
-	"price": "3688",
-	"pic": "./static/img/products/ipad.jpg"
+	"name": "红米note7",
+	"price": "999",
+	"pic": "./static/img/products/hongminote7.jpg"
 }, {
 	"id": 3,
-	"name": "ThinkPad",
-	"price": "5888",
-	"pic": "./static/img/products/thinkpad.jpg"
+	"name": "小米8",
+	"price": "1799",
+	"pic": "./static/img/products/xiaomi8.jpg"
 }, {
 	"id": 4,
 	"name": "小米平衡车",
 	"price": "3599",
 	"pic": "./static/img/products/xiaomi.jpg"
-}]
+}, {
+	"id": 5,
+	"name": "小米电视",
+	"price": "699",
+	"pic": "./static/img/products/xiaomitv.jpg"
+}, {
+	"id": 6,
+	"name": "小米笔记本",
+	"price": "8599",
+	"pic": "./static/img/products/xiaomibook.jpg"
+}, {
+	"id": 7,
+	"name": "小米音响",
+	"price": "169",
+	"pic": "./static/img/products/xiaoaiyinxiang.jpg"
+}, {
+	"id": 8,
+	"name": "小米play4",
+	"price": "749",
+	"pic": "./static/img/products/xiaomibook.jpg"
+}
+]

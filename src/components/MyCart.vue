@@ -34,7 +34,7 @@
 		name: "MyCart",
 		data() {
 			return {
-				msg: "您还未选购任何商品 ...",
+				msg: "请选择您要选购的商品 ...",
 				productArr:  [] //选择的商品
 			}
 		},

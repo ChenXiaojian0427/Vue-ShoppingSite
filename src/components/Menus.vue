@@ -3,7 +3,7 @@
 	    <ul class="pure-menu-list">
 	        <li class="pure-menu-item" v-for="menu in menus"
 	        	:key="menu.id" 
-	        	:class="[menu.id == activeId ? 'pure-menu-selected' : '']"
+	        	:class="[(menu.id == activeId ? 'pure-menu-selected' : ''),'pure-menu-right']"
 	        	@click="switchMenu(menu.id)">
 	        <router-link :to="menu.path" class="pure-menu-link">{{menu.name}}</router-link>
 	        </li>
@@ -22,11 +22,20 @@
 					id: 1,
 					name: "商品",
 					path: "/vmall"
-				}, {
+					}, {
 					id: 2,
 					name: "购物车",
 					path: "/my-cart"
-				}],
+					},{
+					id: 3,
+					name: "登录",
+					path: "/login"
+					}, {
+					id: 4,
+					name: "注册",
+					path: "/register"
+					}
+				],
 				cartCount: 0 //购物车商品数量
 			}
 		},
@@ -69,9 +78,10 @@
 </script>
 
 <style scoped>
-	.pure-menu-list {position:relative;}
-	.pure-menu-horizontal {padding:0 10%;background-color:rgba(0,0,0,.8);}
+	.pure-menu-list {position:relative;width:100%}
+	.pure-menu-horizontal {padding:0 5%;width:100%; background-color:rgba(0,0,0,.8);}
 	.pure-menu-link {margin-right:1px;padding:1em;font-size:14px;color:#eee;}
+	.pure-menu-right{float:right;}
 	.pure-menu-selected .pure-menu-link, 
 	.pure-menu-selected .pure-menu-link:visited {color:#333;background-color:#ffcc33;}
 	.pure-menu-active>.pure-menu-link, 

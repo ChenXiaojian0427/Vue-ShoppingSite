@@ -4,7 +4,7 @@
 		<div class="pure-u-1-4" v-for="product in products" :key="product.id">
 			<div class="panel">
 				<img :src="product.pic" class="pure-img" />
-		<h3>{{product.name}}</h3>
+		        <h3>{{product.name}}</h3>
 				<p>{{product.price | currency}}</p>
 				<div class="panel-btn">
 					<buy-btn @addToCart="addToCart(product.id)" 
@@ -50,7 +50,8 @@
 </script>
 
 <style>
-	.pure-g {margin:0 -10px;}
+    .pure-u-1-4{margin:40px 0 0 0;}
+	.pure-g {margin:10px -10px;}
 	.panel {position:relative;margin:0 10px;border:1px solid #ccc;}
 	.panel img {display:block;margin-bottom:20px;width:100%;height:250px;}
 	.panel h3, 
